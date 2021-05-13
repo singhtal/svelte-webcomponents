@@ -1,0 +1,9 @@
+public/build/*.js
+node_modules
+src/main.js
+rollup.config.js
+package.json
+package-lock.json
+README.md
+scripts/setupTypeScript.js
+stylelint.config.js
