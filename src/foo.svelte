@@ -5,10 +5,7 @@
 
 <svelte:options tag="component-foo"></svelte:options>
 
-<h2 style="background: {background}">
-    Hello i am 
-    <p>{name}</p>
-</h2>
+<h2 style="background: {background}">Hello i am <p>{name}</p></h2>
 
 <style lang="scss">
     h2 {
