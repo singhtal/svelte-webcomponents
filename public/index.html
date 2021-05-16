@@ -9,4 +9,15 @@
 <body>
     <component-parent></component-parent>
 </body>
+<script>
+	window.onload = function() {
+		let myelem = document.querySelectorAll("component-parent");
+
+		myelem.forEach(function(elem) {
+		elem.addEventListener("customclick", e => {
+			alert(e.detail+' clicked');
+		});
+		});
+	}
+</script>
 </html>
