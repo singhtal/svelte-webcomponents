@@ -12,10 +12,10 @@
         }));
     };
 
-   function handleClick(event) {
+    function handleClick(event) {
        event.preventDefault();
       dispatchEvent("customclick", name)
-   }    
+    }    
 
 </script>
 
