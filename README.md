@@ -113,6 +113,7 @@ Foo.svelte (web component)
 Inside Real DOM
 
 ```
+<script>
 	window.onload = function() {
 		let myelem = document.querySelectorAll("component-foo");
 
