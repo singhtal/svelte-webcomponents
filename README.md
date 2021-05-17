@@ -1,5 +1,12 @@
-# svelte-webcomponents
+<div align="center"><img src="https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4.png" alt="svelte logo" width="100px"/></div><br>
+<p align="center">
+    <a href="https://twitter.com/intent/tweet?text=Svelte-webcomponents: A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc."><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
+</p>
 
+<h1 align="center" style="border: 0; margin: 5px;">svelte-webcomponents</h1>
+<p align="center">The world's most easiest, ready to use template for web-components.</p><br>
+
+## About
 A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc.
 
 ## Installation
