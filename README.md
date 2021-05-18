@@ -112,15 +112,15 @@ Inside Real DOM
 
 ```
 <script>
-	window.onload = function() {
-		let myelem = document.querySelectorAll("component-foo");
+	window.onload = function () {
+	  let myelem = document.querySelectorAll('component-foo');
 
-		myelem.forEach(function(elem) {
-		elem.addEventListener("customclick", e => {
-			alert(e.detail+' clicked');
-		});
-	});
-	}
+	  myelem.forEach(function (elem) {
+	    elem.addEventListener('customclick', (e) => {
+	      alert(e.detail + ' clicked');
+	    });
+	  });
+	};
 </script>
 ```
 
