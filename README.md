@@ -5,7 +5,7 @@
 <p>The world's most easiest, ready to use template for web-components.</p>
 
 ## About
-A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc.
+A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events from shadow-DOM to real-DOM etc.
 
 ## Installation
 
