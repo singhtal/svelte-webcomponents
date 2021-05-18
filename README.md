@@ -11,7 +11,7 @@ A ready to use project template to build custom elements (web components) with S
 
 Run below command inside the working folder
 
-```bash
+```javascript
 npx degit tal1992/svelte-webcomponents
 
 ```
@@ -29,7 +29,7 @@ production mode -> npm run build
 #### Register your custom-element inside App.svelte
 
 ##### App.svelte
-```
+```javascript
  import foo from './foo.svelte';
  import bar from './bar.svelte';
 ```
@@ -37,7 +37,7 @@ production mode -> npm run build
 #### No need to import the custom element inside parent declared component, use custom tag names while nesting.
 
 ##### Parent.svelte
-```
+```svelte
 <svelte:options tag="component-parent"></svelte:options>
 
 <div class="parent">
@@ -52,7 +52,7 @@ production mode -> npm run build
 #### This template comes with in-built support for scss.
 
 ##### foo.svelte
-```
+```svelte
 <style lang="scss">
     h2 {
         padding: 20px;
@@ -84,7 +84,7 @@ npm run lintcss
 ### Event propagation from Shadow DOM to Real DOM
 
 Foo.svelte (web component)
-```
+```svelte
 <script>
     import { get_current_component } from "svelte/internal";
     const thisComponent = get_current_component();
@@ -110,7 +110,7 @@ Foo.svelte (web component)
 
 Inside Real DOM
 
-```
+```html
 <script>
 	window.onload = function () {
 	  let myelem = document.querySelectorAll('component-foo');
