@@ -11,13 +11,13 @@ A ready to use project template to build custom elements (web components) with S
 
 Run below command inside the working folder
 
-```javascript
+```bash
 npx degit tal1992/svelte-webcomponents
 
 ```
 ## Usage
 
-```javascript
+```bash
 npm install
 
 developer mode -> npm run dev
@@ -63,21 +63,21 @@ production mode -> npm run build
 ## Test cases 
 Write test cases inside __tests __ folder
 
-```javascript
+```bash
 npm run test
 ```
 
 ## ESLINT
 
 
-```javascript
+```bash
 npm run lintjs
 ```
 
 ## Style lint
 
 
-```javascript
+```bash
 npm run lintcss
 ```
 
