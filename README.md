@@ -4,10 +4,10 @@
 <h1  style="border: 0; margin: 5px;">svelte-webcomponents      <a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a></h1>
 <p>The world's most easiest, ready to use template for web-components.</p>
 
-## About
+## About 📚
 A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events from shadow-DOM to real-DOM etc.
 
-## Installation
+## Installation 🚀
 
 Run below command inside the working folder
 
@@ -18,10 +18,10 @@ npx degit tal1992/svelte-webcomponents
 ## Usage
 
 ```bash
-npm install
+📦 npm install 
 
-developer mode -> npm run dev
-production mode -> npm run build
+🔨developer mode -> npm run dev
+🔨 production mode -> npm run build
 ```
 
 ## Nested Custom Elements
