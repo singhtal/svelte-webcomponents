@@ -1,15 +1,13 @@
-<div align="center"><img src="https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4.png" alt="svelte logo" width="100px"/></div><br>
-<p align="center">
-    <a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
-</p>
+<div><img src="https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4.png" alt="svelte logo" width="100px"/></div>
 
-<h1 align="center" style="border: 0; margin: 5px;">svelte-webcomponents</h1>
-<p align="center">The world's most easiest, ready to use template for web-components.</p><br>
 
-## About
-A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc.
+<h1  style="border: 0; margin: 5px;">svelte-webcomponents      <a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a></h1>
+<p>The world's most easiest, ready to use template for web-components.</p>
 
-## Installation
+## About 📚
+A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events from shadow-DOM to real-DOM etc.
+
+## Installation 🚀
 
 Run below command inside the working folder
 
@@ -19,11 +17,11 @@ npx degit tal1992/svelte-webcomponents
 ```
 ## Usage
 
-```javascript
-npm install
+```bash
+📦 npm install 
 
-developer mode -> npm run dev
-production mode -> npm run build
+🔨developer mode -> npm run dev
+🔨 production mode -> npm run build
 ```
 
 ## Nested Custom Elements
@@ -31,7 +29,7 @@ production mode -> npm run build
 #### Register your custom-element inside App.svelte
 
 ##### App.svelte
-```
+```javascript
  import foo from './foo.svelte';
  import bar from './bar.svelte';
 ```
@@ -39,7 +37,7 @@ production mode -> npm run build
 #### No need to import the custom element inside parent declared component, use custom tag names while nesting.
 
 ##### Parent.svelte
-```
+```svelte
 <svelte:options tag="component-parent"></svelte:options>
 
 <div class="parent">
@@ -54,7 +52,7 @@ production mode -> npm run build
 #### This template comes with in-built support for scss.
 
 ##### foo.svelte
-```
+```svelte
 <style lang="scss">
     h2 {
         padding: 20px;
@@ -65,28 +63,28 @@ production mode -> npm run build
 ## Test cases 
 Write test cases inside __tests __ folder
 
-```javascript
+```bash
 npm run test
 ```
 
 ## ESLINT
 
 
-```javascript
+```bash
 npm run lintjs
 ```
 
 ## Style lint
 
 
-```javascript
+```bash
 npm run lintcss
 ```
 
 ### Event propagation from Shadow DOM to Real DOM
 
 Foo.svelte (web component)
-```
+```svelte
 <script>
     import { get_current_component } from "svelte/internal";
     const thisComponent = get_current_component();
@@ -112,17 +110,17 @@ Foo.svelte (web component)
 
 Inside Real DOM
 
-```
+```html
 <script>
-	window.onload = function() {
-		let myelem = document.querySelectorAll("component-foo");
+	window.onload = function () {
+	  let myelem = document.querySelectorAll('component-foo');
 
-		myelem.forEach(function(elem) {
-		elem.addEventListener("customclick", e => {
-			alert(e.detail+' clicked');
-		});
-		});
-	}
+	  myelem.forEach(function (elem) {
+	    elem.addEventListener('customclick', (e) => {
+	      alert(e.detail + ' clicked');
+	    });
+	  });
+	};
 </script>
 ```
 
