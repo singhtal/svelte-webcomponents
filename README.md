@@ -119,7 +119,7 @@ Inside Real DOM
 		elem.addEventListener("customclick", e => {
 			alert(e.detail+' clicked');
 		});
-		});
+	});
 	}
 </script>
 ```
