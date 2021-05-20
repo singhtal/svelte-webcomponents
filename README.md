@@ -15,7 +15,7 @@ Run below command inside the working folder
 npx degit tal1992/svelte-webcomponents
 
 ```
-## Usage
+## Installation and build 📌
 
 ```bash
 📦 npm install 
@@ -24,13 +24,13 @@ npx degit tal1992/svelte-webcomponents
 🔨 production mode -> npm run build
 ```
 
-## Using web-components in HTML
+## Using web-components in HTML 📌
 
 ```html
   <component-name propOne="Lorem" propTwo="Ipsum"></component-name>
 ```
 
-## Using web-components as a widget
+## Using web-components as a widget 📌
 
 ```javascript
 function addScript(src) {
@@ -53,7 +53,7 @@ Now that your bundle.js file is included in the html , we can use the web compon
       header.parentNode.replaceChild(foo, header);
 ```
 
-## Nested Custom Elements
+## Nested Custom Elements 📌
 
 #### Register your custom-element inside App.svelte
 
@@ -76,7 +76,7 @@ Now that your bundle.js file is included in the html , we can use the web compon
 
 ```
 
-## Writing SCSS inside svelte 
+## Writing SCSS inside svelte 📌
 
 #### This template comes with in-built support for scss.
 
@@ -89,28 +89,28 @@ Now that your bundle.js file is included in the html , we can use the web compon
 </style>
 ```
 
-## Test cases 
+## Test cases 📌
 Write test cases inside __tests __ folder
 
 ```bash
 npm run test
 ```
 
-## ESLINT
+## ESLINT 📌
 
 
 ```bash
 npm run lintjs
 ```
 
-## Style lint
+## Style lint 📌
 
 
 ```bash
 npm run lintcss
 ```
 
-### Event propagation from Shadow DOM to Real DOM
+### Event propagation from Shadow DOM to Real DOM 📌
 
 Foo.svelte (web component)
 ```svelte
