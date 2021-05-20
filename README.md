@@ -92,6 +92,23 @@ Now that your bundle.js file is included in the html , we can use the web compon
 ## Test cases 📌
 Write test cases inside __tests __ folder
 
+Note : Dont treat webcomponents as a special case for testing, they should be tested as normal svelte components.
+
+```javascript
+import { render } from "@testing-library/svelte";
+import App from "../src/App.svelte";
+
+describe("App component", () => {
+  test("should render component correctly", () => {
+    const { container } = render(App);
+
+    expect(container).toContainHTML("<body><div><h1>Hello from svelte</h1></div></body>");
+  });
+});
+```
+
+Use normal component name and not the webcomponent name in the test case.
+
 ```bash
 npm run test
 ```
