@@ -3,7 +3,7 @@
 
 <h1  style="border: 0; margin: 5px;">svelte-webcomponents      <a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a></h1>
 
-[![v1.0.0](https://img.shields.io/badge/version-v1.0.20210430-lightgray.svg?style=flat&logo=)](https://github.com/tal1992/svelte-webcomponents)  [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/tal1992/svelte-webcomponents/blob/main/LICENSE) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: Javascript](https://img.shields.io/badge/language-javascript-blue.svg?style=flat&logo=javascript)](https://www.javascript.com)
+[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-lightgray.svg?style=flat&logo=)](https://github.com/tal1992/svelte-webcomponents)  [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/tal1992/svelte-webcomponents/blob/main/LICENSE) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: Javascript](https://img.shields.io/badge/language-javascript-blue.svg?style=flat&logo=javascript)](https://www.javascript.com)
 
 
 <p>The world's most easiest, ready to use template for web-components.</p>
