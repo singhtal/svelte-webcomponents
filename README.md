@@ -15,7 +15,7 @@ Run below command inside the working folder
 npx degit tal1992/svelte-webcomponents
 
 ```
-## Usage
+## Installation and build 📌
 
 ```bash
 📦 npm install 
@@ -24,7 +24,36 @@ npx degit tal1992/svelte-webcomponents
 🔨 production mode -> npm run build
 ```
 
-## Nested Custom Elements
+## Using web-components in HTML 📌
+
+```html
+  <component-name propOne="Lorem" propTwo="Ipsum"></component-name>
+```
+
+## Using web-components as a widget 📌
+
+```javascript
+function addScript(src) {
+  var s = document.createElement("script");
+  s.setAttribute("src", src);
+  document.querySelector("body").appendChild(s);
+}
+//replace the url with your hosted path of bundle.js
+addScript("https://loremipsumdolarsir/build/bundle.js", "", "");
+```
+
+Now that your bundle.js file is included in the html , we can use the web components.
+
+```javascript
+      let foo = document.createElement('component-foo');
+      let header = document.getElementByTagName('header');
+      foo.setAttribute('propOne', "lorem");
+      foo.setAttribute('propTwo', "Ipsum");
+      // please replace header with the element where you want to add your custom element.
+      header.parentNode.replaceChild(foo, header);
+```
+
+## Nested Custom Elements 📌
 
 #### Register your custom-element inside App.svelte
 
@@ -47,7 +76,7 @@ npx degit tal1992/svelte-webcomponents
 
 ```
 
-## Writing SCSS inside svelte 
+## Writing SCSS inside svelte 📌
 
 #### This template comes with in-built support for scss.
 
@@ -60,28 +89,45 @@ npx degit tal1992/svelte-webcomponents
 </style>
 ```
 
-## Test cases 
+## Test cases 📌
 Write test cases inside __tests __ folder
+
+Note : Dont treat webcomponents as a special case for testing, they should be tested as normal svelte components.
+
+```javascript
+import { render } from "@testing-library/svelte";
+import App from "../src/App.svelte";
+
+describe("App component", () => {
+  test("should render component correctly", () => {
+    const { container } = render(App);
+
+    expect(container).toContainHTML("<body><div><h1>Hello from svelte</h1></div></body>");
+  });
+});
+```
+
+Use normal component name and not the webcomponent name in the test case.
 
 ```bash
 npm run test
 ```
 
-## ESLINT
+## ESLINT 📌
 
 
 ```bash
 npm run lintjs
 ```
 
-## Style lint
+## Style lint 📌
 
 
 ```bash
 npm run lintcss
 ```
 
-### Event propagation from Shadow DOM to Real DOM
+### Event propagation from Shadow DOM to Real DOM 📌
 
 Foo.svelte (web component)
 ```svelte
