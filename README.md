@@ -178,6 +178,9 @@ Inside Real DOM
 	};
 </script>
 ```
+## Developer
+
+    -   <img src="https://github.com/tal1992/svelte-webcomponents/blob/main/z_assets/twitter.png" height="18px"> [Twitter](http://twitter.com/iamtalvinder)
 
 
 ## License
