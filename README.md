@@ -7,8 +7,6 @@
 [![v1.0.0](https://img.shields.io/badge/version-v1.0.0-yellow.svg?style=flat&logo=)](https://github.com/tal1992/svelte-webcomponents)  [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/tal1992/svelte-webcomponents/blob/main/LICENSE) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: Javascript](https://img.shields.io/badge/language-javascript-blue.svg?style=flat&logo=javascript)](https://www.javascript.com)
 <img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/layer5.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=iamtalvinder)
-
 <h5><p><i>If you’re using web-components or if you like the project, please <a href="https://github.com/tal1992/svelte-webcomponents/stargazers">★</a> this repository to show your support! 🤩</i></p></h5>
 
 <p>The world's most easiest, ready to use template for web-components.</p>
