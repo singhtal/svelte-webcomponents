@@ -19,16 +19,19 @@ A ready to use project template to build custom elements (web components) with S
 Run below command inside the working folder
 
 ```bash
-npx degit tal1992/svelte-webcomponents
+$ git clone https://github.com/tal1992/svelte-webcomponents.git
+** or **
+$ npx degit tal1992/svelte-webcomponents
+
 
 ```
 ## Installation and build 📌
 
 ```bash
-📦 npm install 
+📦 $ npm install 
 
-🔨developer mode -> npm run dev
-🔨 production mode -> npm run build
+🔨 developer mode -> $ npm run dev
+🔨  production mode -> $ npm run build
 ```
 
 ## Using web-components in HTML 📌
@@ -117,21 +120,21 @@ describe("App component", () => {
 Use normal component name and not the webcomponent name in the test case.
 
 ```bash
-npm run test
+$ npm run test
 ```
 
 ## ESLINT 📌
 
 
 ```bash
-npm run lintjs
+$ npm run lintjs
 ```
 
 ## Style lint 📌
 
 
 ```bash
-npm run lintcss
+$ npm run lintcss
 ```
 
 ### Event propagation from Shadow DOM to Real DOM 📌
