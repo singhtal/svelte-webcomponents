@@ -5,7 +5,8 @@
 
 [![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://xenodochial-lumiere-4883d3.netlify.app/)
 [![v1.0.0](https://img.shields.io/badge/version-v1.0.0-yellow.svg?style=flat&logo=)](https://github.com/tal1992/svelte-webcomponents)  [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/tal1992/svelte-webcomponents/blob/main/LICENSE) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: Javascript](https://img.shields.io/badge/language-javascript-blue.svg?style=flat&logo=javascript)](https://www.javascript.com)
-<img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
+
+<a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
 
 <h5><p><i>If you’re using web-components or if you like the project, please <a href="https://github.com/tal1992/svelte-webcomponents/stargazers">★</a> this repository to show your support! 🤩</i></p></h5>
 
