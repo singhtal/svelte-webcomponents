@@ -1,27 +1,36 @@
 <div><img src="https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4.png" alt="svelte logo" width="100px"/></div>
 
 
-<h1  style="border: 0; margin: 5px;">svelte-webcomponents      <a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a></h1>
+<h1  style="border: 0; margin: 5px;">svelte-webcomponents</h1>
+
+[![Website](https://img.shields.io/website/https/layer5.io/meshery.svg)](https://xenodochial-lumiere-4883d3.netlify.app/)
+[![v1.0.0](https://img.shields.io/badge/version-v1.0.0-yellow.svg?style=flat&logo=)](https://github.com/tal1992/svelte-webcomponents)  [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/tal1992/svelte-webcomponents/blob/main/LICENSE) [![Powered By Svelte](https://img.shields.io/badge/powered%20by-svelte-FF3C02.svg?style=flat&logo=svelte)](https://svelte.dev/) [![Language: Javascript](https://img.shields.io/badge/language-javascript-blue.svg?style=flat&logo=javascript)](https://www.javascript.com) <a href="https://twitter.com/intent/tweet?text=A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for custom-elements, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events to read-DOM etc. https://github.com/tal1992/svelte-webcomponents"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
+
+<h5><p><i><u>If you’re using web-components or if you like the project, please <a href="https://github.com/tal1992/svelte-webcomponents/stargazers">★</a> this repository to show your support!</u> 🤩</i></p></h5>
+
 <p>The world's most easiest, ready to use template for web-components.</p>
 
 ## About 📚
-A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, propagating custom events from shadow-DOM to real-DOM etc.
+A ready to use project template to build custom elements (web components) with Svelte 3 with support and examples for web components, jest, sass, nested components with props, eslinting, stylelinting, Github actions and custom events from shadow-DOM to real-DOM etc.
 
 ## Installation 🚀
 
 Run below command inside the working folder
 
 ```bash
-npx degit tal1992/svelte-webcomponents
+$ git clone https://github.com/tal1992/svelte-webcomponents.git
+** or **
+$ npx degit tal1992/svelte-webcomponents
+
 
 ```
 ## Installation and build 📌
 
 ```bash
-📦 npm install 
+📦 $ npm install 
 
-🔨developer mode -> npm run dev
-🔨 production mode -> npm run build
+🔨 developer mode -> $ npm run dev
+🔨  production mode -> $ npm run build
 ```
 
 ## Using web-components in HTML 📌
@@ -110,21 +119,21 @@ describe("App component", () => {
 Use normal component name and not the webcomponent name in the test case.
 
 ```bash
-npm run test
+$ npm run test
 ```
 
 ## ESLINT 📌
 
 
 ```bash
-npm run lintjs
+$ npm run lintjs
 ```
 
 ## Style lint 📌
 
 
 ```bash
-npm run lintcss
+$ npm run lintcss
 ```
 
 ### Event propagation from Shadow DOM to Real DOM 📌
@@ -169,7 +178,9 @@ Inside Real DOM
 	};
 </script>
 ```
-
-
+## Developer
+[Linkedin](https://www.linkedin.com/in/iamtalvinder/)
+[Twitter](https://twitter.com/iamtalvinder)
+[Email](mailto:talvindersingh1992@gmail.com)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
