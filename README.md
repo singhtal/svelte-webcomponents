@@ -178,5 +178,9 @@ Inside Real DOM
 	};
 </script>
 ```
+## Developer
+[Linkedin](https://www.linkedin.com/in/iamtalvinder/)
+[Twitter](https://twitter.com/iamtalvinder)
+[email](talvindersingh1992@gmail.com)
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
