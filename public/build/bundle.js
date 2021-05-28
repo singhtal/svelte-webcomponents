@@ -474,10 +474,10 @@ var app = (function () {
     			button = element("button");
     			button.textContent = "Click me";
     			this.c = noop;
-    			add_location(p, file$1, 23, 48, 642);
+    			add_location(p, file$1, 23, 48, 644);
     			set_style(h2, "background", /*background*/ ctx[1]);
-    			add_location(h2, file$1, 23, 0, 594);
-    			add_location(button, file$1, 24, 0, 662);
+    			add_location(h2, file$1, 23, 0, 596);
+    			add_location(button, file$1, 24, 0, 664);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

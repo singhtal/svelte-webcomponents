@@ -1,6 +1,6 @@
 {
-  "name": "Svelte-Webcomponents",
-  "version": "1.0.0",
+  "name": "svelte_webcomponents",
+  "version": "1.0.1",
   "description": "Boilerplate for developing web components in svelte, using nested components, passing props, sass and jest setup, eslint and style-lint etc",
   "author": "Talvinder Singh <talvindersingh1992@gmail.com>",
   "license": "MIT",
@@ -49,5 +49,9 @@
   },
   "dependencies": {
     "sirv-cli": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tal1992/svelte-webcomponents"
   }
 }
