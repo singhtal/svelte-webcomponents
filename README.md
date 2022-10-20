@@ -1,4 +1,6 @@
-<div><img src="https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4.png" alt="svelte logo" width="100px"/></div>
+<div>
+  <img src="https://pbs.twimg.com/profile_images/1121395911849062400/7exmJEg4.png" alt="svelte logo" width="100px"/>
+</div>
 
 
 <h1  style="border: 0; margin: 5px;">svelte-webcomponents</h1>
